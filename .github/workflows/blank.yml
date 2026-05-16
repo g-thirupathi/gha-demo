@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Thirupathi step
-        run: echo "Hello Thirupathi"
+        run: |
+          echo "Hello Thirupathi"
+          echo "Hello Sriram and Siri"
   
 
