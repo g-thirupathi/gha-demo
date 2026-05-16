@@ -1,12 +1,22 @@
 name: Thirupathi Workflow
 on: workflow_dispatch
 jobs:
-  Thirupathijob:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Thirupathi step
-        run: |
-          echo "Hello Thirupathi"
-          echo "Hello Sriram and Siri"
+      - name: Build Step
+        run: echo "Build Creation"
+
+   test:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Test Step
+         run: echo "Testing Success"
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Step
+        run: echo "Deployment"
   
 
