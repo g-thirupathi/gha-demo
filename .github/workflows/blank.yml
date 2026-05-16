@@ -1,4 +1,4 @@
-name: Thirupathi Workflow
+name: Thiru_Workflow
 on: workflow_dispatch
 jobs:
   build:
@@ -7,7 +7,7 @@ jobs:
       - name: Build Step
         run: echo "Build Creation"
 
-   test:
+  test:
      runs-on: ubuntu-latest
      steps:
        - name: Test Step
