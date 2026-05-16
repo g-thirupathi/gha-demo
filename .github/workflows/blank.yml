@@ -1,13 +1,10 @@
-name: Hello Workflow
-
-on:
-  workflow_dispatch:
-
+name: Thirupathi Workflow
+on: workflow_dispatch
 jobs:
-  print-hello:
+  Thirupathijob:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Print Hello
-        run: echo "Hello"
+      - name: Thirupathi step
+        run: echo "Hello Thirupathi"
+  
 
