@@ -23,6 +23,8 @@ jobs:
           echo "Building application..."
           mkdir build
           echo "Build completed"
+          echo "Hello, ${{vars.MY_NAME}}"
+          echo "I am from : ${{city}}"
 
   test-job:
     runs-on: ubuntu-latest
