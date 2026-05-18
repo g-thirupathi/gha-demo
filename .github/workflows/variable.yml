@@ -1,0 +1,8 @@
+name: variables workflows
+on: push
+jobs:
+  test:
+     runs-on: ubuntu-latest
+  steps:
+     - name: variable-test-step
+     run: echo "NAME: ${{vars.MY_NAME}}
