@@ -24,7 +24,7 @@ jobs:
           mkdir build
           echo "Build completed"
           echo "Hello, ${{vars.MY_NAME}}"
-          echo "I am from : ${{city}}"
+          echo "I am from : ${{vars.MY_CITY}}"
 
   test-job:
     runs-on: ubuntu-latest
