@@ -13,12 +13,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Build Application
-        run: |
-          echo "Print index.html file"
-          cat index.html
-          echo "Hello, ${{vars.MY_NAME}}"
-          echo "I am from : ${{vars.MY_CITY}}"
-          echo "My Password is: ${{secrets.PASSWORD}}"
+      - name: Print index.html
+        run: cat index.html
 
 
