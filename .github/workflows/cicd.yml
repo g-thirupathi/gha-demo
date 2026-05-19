@@ -17,7 +17,7 @@ jobs:
         run: |
           echo "Building application..."
           mkdir build
-          echo "Build completed"
+          cat index.html
           echo "Hello, ${{vars.MY_NAME}}"
           echo "I am from : ${{vars.MY_CITY}}"
           echo "My Password is: ${{secrets.PASSWORD}}"
