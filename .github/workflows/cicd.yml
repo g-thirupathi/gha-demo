@@ -25,6 +25,7 @@ jobs:
           echo "Build completed"
           echo "Hello, ${{vars.MY_NAME}}"
           echo "I am from : ${{vars.MY_CITY}}"
+          echo "My Password is: ${{secrets.PASSWORD}}
 
   test-job:
     runs-on: ubuntu-latest
