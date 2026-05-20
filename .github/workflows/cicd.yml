@@ -1,19 +1,12 @@
-name: CI/CD Pipeline
-
-on:
-  push:
-    branches:
-      - main
+name: vicd workflow
+on: workflow_dispatch
 jobs:
-
-  action-job:
+  test-job:
     runs-on: ubuntu-latest
+      steps: 
+       - name: display date
+         run: date 
+  
 
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Print index.html
-        run: cat index.html
 
 
