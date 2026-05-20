@@ -1,9 +1,9 @@
-name: vicd workflow
+name: cicd
 on: workflow_dispatch
 jobs:
   test-job:
     runs-on: ubuntu-latest
-      steps: 
+    steps: 
        - name: display date
          run: date 
   
