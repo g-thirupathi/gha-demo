@@ -9,6 +9,8 @@ jobs:
         run: echo "Hello Thirupathi, welcome"
       - name: Print goodbye
         run: echo "Thank You - Bye!"
+      - name: Checking the runner
+        run: echo "This pipeline is executed on GitHub Runner"
   
 
 
