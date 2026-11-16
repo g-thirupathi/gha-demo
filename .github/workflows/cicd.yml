@@ -1,11 +1,13 @@
-name: cicd
+name: First Workflow
 on: workflow_dispatch
-jobs:
-  test-job:
+jobs:  
+  first-job:
     runs-on: ubuntu-latest
-    steps: 
-       - name: display date
-         run: date 
+    steps:
+      - name: Print greeting
+        run: echo "Hello Thirupathi, welcome"
+      - name: Print goodbye
+        run: echo "Thank You - Bye!"
   
 
 
